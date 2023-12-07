@@ -333,7 +333,17 @@ using namespace osm_auth_ios;
 #pragma mark - Properties
 
 - (MapViewController *)mapViewController {
-  for (id vc in [(UINavigationController *)self.window.rootViewController viewControllers]) {
+  UIViewController* rootViewController;
+  if (@available(iOS 13.0, *)) {
+    for (UIScene* scene in UIApplication.sharedApplication.connectedScenes) {
+      MapsSceneDelegate* delegate = (MapsSceneDelegate *)scene.delegate;
+      rootViewController = delegate.window.rootViewController;
+      break; //FIXME Multiple Scenes?
+    }
+  } else {
+    rootViewController = self.window.rootViewController;
+  }
+  for (id vc in [(UINavigationController *)rootViewController viewControllers]) {
     if ([vc isKindOfClass:[MapViewController class]])
       return vc;
   }

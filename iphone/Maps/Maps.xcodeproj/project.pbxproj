@@ -261,6 +261,8 @@
 		47F86CFF20C936FC00FEE291 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F86CFE20C936FC00FEE291 /* TabView.swift */; };
 		47F86D0120C93D8D00FEE291 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F86D0020C93D8D00FEE291 /* TabViewController.swift */; };
 		4A300ED51C6DCFD400140018 /* countries-strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A300ED31C6DCFD400140018 /* countries-strings */; };
+		4B9147372B2181580021A643 /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9147362B2181580021A643 /* CarPlaySceneDelegate.swift */; };
+		4BF966892B1AC5DC00D9BF73 /* MapsSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF966882B1AC5DC00D9BF73 /* MapsSceneDelegate.swift */; };
 		6741A9421BF340DE002C974C /* sound-strings in Resources */ = {isa = PBXBuildFile; fileRef = 5605022E1B6211E100169CAD /* sound-strings */; };
 		6741A9451BF340DE002C974C /* classificator.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE026F0511D6AC0D00645242 /* classificator.txt */; };
 		6741A9491BF340DE002C974C /* countries.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA46DA2B12D4166E00968C36 /* countries.txt */; };
@@ -1140,6 +1142,8 @@
 		4A7D89C21B2EBF3B00AC843E /* resources-mdpi_dark */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "resources-mdpi_dark"; path = "../../data/resources-mdpi_dark"; sourceTree = "<group>"; };
 		4A7D89C31B2EBF3B00AC843E /* resources-xhdpi_dark */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "resources-xhdpi_dark"; path = "../../data/resources-xhdpi_dark"; sourceTree = "<group>"; };
 		4A7D89C41B2EBF3B00AC843E /* resources-xxhdpi_dark */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "resources-xxhdpi_dark"; path = "../../data/resources-xxhdpi_dark"; sourceTree = "<group>"; };
+		4B9147362B2181580021A643 /* CarPlaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
+		4BF966882B1AC5DC00D9BF73 /* MapsSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsSceneDelegate.swift; sourceTree = "<group>"; };
 		5605022E1B6211E100169CAD /* sound-strings */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "sound-strings"; path = "../../data/sound-strings"; sourceTree = "<group>"; };
 		6741AA5D1BF340DE002C974C /* Organic Maps (Debug).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Organic Maps (Debug).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B15907026623AE500944BBA /* 00_NotoSansThai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "00_NotoSansThai-Regular.ttf"; path = "../../data/00_NotoSansThai-Regular.ttf"; sourceTree = "<group>"; };
@@ -1721,6 +1725,7 @@
 				34FE4C421BCC013500066718 /* Widgets */,
 				FA8E808825F412E2002A1434 /* FirstSession.mm */,
 				FA8E808A25F41337002A1434 /* FirstSession.h */,
+				4BF966882B1AC5DC00D9BF73 /* MapsSceneDelegate.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -2857,6 +2862,7 @@
 				CDCA273E2238087700167D87 /* MWMCarPlaySearchService.mm */,
 				CDCA2746223FD24600167D87 /* MWMCarPlaySearchResultObject.h */,
 				CDCA2747223FD24600167D87 /* MWMCarPlaySearchResultObject.mm */,
+				4B9147362B2181580021A643 /* CarPlaySceneDelegate.swift */,
 			);
 			path = CarPlay;
 			sourceTree = "<group>";
@@ -3969,6 +3975,7 @@
 				34AB666B1FC5AA330078E451 /* TransportTransitCell.swift in Sources */,
 				47E8163323B17734008FD836 /* MWMStorage+UI.m in Sources */,
 				993DF11123F6BDB100AC231A /* UILabelRenderer.swift in Sources */,
+				4BF966892B1AC5DC00D9BF73 /* MapsSceneDelegate.swift in Sources */,
 				34AB66471FC5AA330078E451 /* RouteManagerTableView.swift in Sources */,
 				9989273C2449E60200260CE2 /* BottomMenuInteractor.swift in Sources */,
 				47DF72B922520CE20004AB10 /* MWMRoutingOptions.mm in Sources */,
@@ -4053,6 +4060,7 @@
 				99C9642C2428C0F700E41723 /* PlacePageHeaderBuilder.swift in Sources */,
 				99C9642B2428C0F700E41723 /* PlacePageHeaderViewController.swift in Sources */,
 				F6FE3C391CC50FFD00A73196 /* MWMPlaceDoesntExistAlert.m in Sources */,
+				4B9147372B2181580021A643 /* CarPlaySceneDelegate.swift in Sources */,
 				F6E2FDFE1E097BA00083EBEC /* MWMOpeningHoursClosedSpanTableViewCell.mm in Sources */,
 				34B846A12029DCC10081ECCD /* BMCCategoriesHeader.swift in Sources */,
 				99A614D523C8911A00D8D8D0 /* AuthStyleSheet.swift in Sources */,
